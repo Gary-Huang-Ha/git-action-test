@@ -11,6 +11,7 @@ on:
           - '+'
           - '-'
           - '*'
+          - '/'
       left_number:
         description: 'Left Number'
         required: true
