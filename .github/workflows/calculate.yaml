@@ -10,6 +10,7 @@ on:
         options:
           - '+'
           - '-'
+          - '*'
       left_number:
         description: 'Left Number'
         required: true
