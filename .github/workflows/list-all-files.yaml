@@ -1,4 +1,4 @@
-name: Github Action sharing - Greeting
+name: Github Action sharing - List all files
 
 on:
   push:
@@ -7,6 +7,8 @@ jobs:
   List:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
       - name: List
         run: ls -al
       - name: pwd
