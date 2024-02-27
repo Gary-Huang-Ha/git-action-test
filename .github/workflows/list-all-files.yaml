@@ -1,0 +1,14 @@
+name: Github Action sharing - Greeting
+
+on:
+  push:
+
+jobs:
+  List:
+    runs-on: ubuntu-latest
+    steps:
+      - name: List
+        # run: echo 'Hello Github Action!'
+        run: ls -al
+      - name: pwd
+        run: pwd
