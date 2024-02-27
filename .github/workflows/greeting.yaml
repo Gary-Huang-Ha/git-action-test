@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Say hello
         # run: echo 'Hello Github Action!'
-        run: echo "${{ env.GREETING }} $FULL_NAME. Today is ${{ evn.DAY_OF_WEEK }}"
+        run: echo "${{ env.GREETING }} $FULL_NAME. Today is ${{ env.DAY_OF_WEEK }}"
         env:
           FULL_NAME: 'Gary Huang'
     env:
